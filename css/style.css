@@ -6,3 +6,55 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ 
+ body{
+   background-color: rgb(173, 224, 221);
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+
+ #bannerfirst {
+   justify-content: center;
+    align-items: flex-start;
+   padding-top: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
+    display: flex;
+ }
+
+ .encabezado {
+   background-image: url("../images/presentation.png");
+   background-repeat: no-repeat;
+   background-position-x: 85%;
+   background-position-y: 5px;
+   background-size: 400px;
+   background-color: rgba(208, 237, 240, 0.868);
+   height: 430px;
+   width: 50%;
+   display: inline-flex;
+   flex-direction: column;
+   padding-right: 50%;
+   
+ }
+
+ .headline {
+    font-size: 50px;
+    line-height: 0.5;
+    font-weight: 500;
+    letter-spacing: -0.005em;
+    text-align: center;
+    margin-top: 35px;
+ }
+ 
+ .subline{
+   text-align: center;
+   margin-top: -18px;
+   font-size: 20px;
+ }
+.introduction{
+   text-align: justify;
+   margin: 20px;
+   line-height: 1.3;
+}
+ 
+
