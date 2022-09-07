@@ -58,3 +58,58 @@
 }
  
 
+#Ul{
+  text-align: center;
+}
+
+.cards {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.card1 {
+  width: 48%;
+  height: 60px;
+  margin: 5px;
+}
+.card2 {
+  width: 48%;
+  height: 60px;
+  margin: 5px;
+}
+
+#catblack {
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  z-index: -1;
+}
+
+#kitty{
+  z-index: 2;
+  margin-top: -15%;
+  text-align: center;
+}
+
+.sublinecardwhite {
+  font-size: 19px;
+  line-height: 1.21053;
+  font-weight: 400;
+  letter-spacing: .012em;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.information-buy-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 17px;
+  text-decoration: none;
+}
